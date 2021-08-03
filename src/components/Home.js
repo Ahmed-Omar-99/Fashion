@@ -1,12 +1,10 @@
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            {/* <a class="navbar-brand" href="#">Navbar</a>
+function Home() {
+    return (
+        <div>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        {/* <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,11 +36,11 @@ function App() {
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
             </div> */}
-          </div>
-        </nav>
-      </header>
-    </div>
-  );
+                    </div>
+                </nav>
+            </header>
+        </div>
+    );
 }
 
-export default App;
+export default Home;
